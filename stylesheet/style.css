@@ -5,8 +5,8 @@ body{
 /* header style */
 header{ 
     padding:10px;
-    border:solid;
-    height: fit-content;
+    /* border:solid; */
+    height: 175px;
 }
 
 
@@ -26,7 +26,7 @@ h6{
 selection{
     position: relative;
     left:1000px;
-    /* bottom: 135px; */
+    bottom: 135px;
 
 }
 
@@ -39,14 +39,14 @@ selection{
 #header1 
 { 
 position:relative;                                           /*.......two titles and logo*/
-/* bottom:20px;  */
+bottom:20px; 
 }
 
 
 
 #first{                                         
     position: relative;  /* first title and the second line */
-    /* bottom:110px; */
+    bottom:110px;
     left: 110px;
 
 }
@@ -55,7 +55,7 @@ position:relative;                                           /*.......two titles
 #title2{
     /* the sec title */
     position: relative;
-    /* bottom: 40px; */
+    bottom: 40px;
 }
 
 #logo1{
@@ -74,6 +74,7 @@ position:relative;                                           /*.......two titles
 /* main style */
 main{
     border:solid;
+    padding:10px;
 
 }
 
@@ -84,10 +85,80 @@ p{
 }
 
 
+#cakeimg{
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+}
+
+#maintitle{
+    position: relative;
+    left:200px;
+}
+
+#picon {
+    position: relative;
+    left:1150px;
+    bottom:30px;
+}
+
+ #lists{ /* image of list */
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  bottom:200px;
+  z-index: -1;
+}
+
+
+#col{
+    display: flex;
+    position: relative;
+    left:350px;
+    top: 45px;
+}
+
+ .listitems2{   /* // the items in the paperlist */
+    font-size: 20px;
+    font-family: 'Comic Neue', cursive;
+    font-weight:normal;
+    
+}
+
+
+#paragraphs{ /* paragraphs holder div id */
+    position: relative;
+    left: 210px;
+}
+
+p{
+    border: solid;
+    position: relative;
+    width: 900px;
+    font-weight: 525;
+}
+
+
+
+
+
+
 /* footer style */
 footer{
     border:solid;
+    text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
 
 hr {
     display:block;
