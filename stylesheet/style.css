@@ -1,0 +1,97 @@
+body{
+
+}
+
+/* header style */
+header{ 
+    padding:10px;
+    border:solid;
+    height: fit-content;
+}
+
+
+#title{
+    font-family: 'Yellowtail', cursive;
+    color: black;
+    font-size: 60px;
+}
+
+
+h6{
+    font-family:  'Open Sans', sans-serif;;
+}
+
+
+/* images in header */
+selection{
+    position: relative;
+    left:1000px;
+    /* bottom: 135px; */
+
+}
+
+.headeritem{ display: inline;}
+.headerlist{ display: inline;}
+
+
+
+
+#header1 
+{ 
+position:relative;                                           /*.......two titles and logo*/
+/* bottom:20px;  */
+}
+
+
+
+#first{                                         
+    position: relative;  /* first title and the second line */
+    /* bottom:110px; */
+    left: 110px;
+
+}
+
+
+#title2{
+    /* the sec title */
+    position: relative;
+    /* bottom: 40px; */
+}
+
+#logo1{
+     height:90px;
+     width:75px;
+     position:relative;
+     top:30px;
+     left:30px;
+}
+
+
+
+
+
+
+/* main style */
+main{
+    border:solid;
+
+}
+
+
+p{
+    text-align: justify;
+    text-indent: 15px;
+}
+
+
+/* footer style */
+footer{
+    border:solid;
+}
+
+hr {
+    display:block;
+    border:0px;
+    height:10px;
+    background-image:url(https://raw.githubusercontent.com/LTUC/amman-201d19/master/class-10/lab-a/lab-assets/hr-img.png);
+}
