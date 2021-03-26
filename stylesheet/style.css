@@ -25,8 +25,8 @@ h6{
 /* images in header */
 selection{
     position: relative;
-    left:1000px;
-    bottom: 135px;
+    left:810px;
+    bottom: 120px;
 
 }
 
@@ -40,6 +40,7 @@ selection{
 { 
 position:relative;                                           /*.......two titles and logo*/
 bottom:20px; 
+
 }
 
 
@@ -47,7 +48,7 @@ bottom:20px;
 #first{                                         
     position: relative;  /* first title and the second line */
     bottom:110px;
-    left: 110px;
+    left: 270px;
 
 }
 
@@ -63,7 +64,7 @@ bottom:20px;
      width:75px;
      position:relative;
      top:30px;
-     left:30px;
+     left:190px;
 }
 
 
@@ -73,15 +74,16 @@ bottom:20px;
 
 /* main style */
 main{
-    border:solid;
+    /* border:solid; */
     padding:10px;
-
+    height:1350px;
+    margin-bottom: 20px;
 }
 
 
 p{
     text-align: justify;
-    text-indent: 15px;
+    text-indent: 30px;
 }
 
 
@@ -89,40 +91,76 @@ p{
     display: block;
     margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
+  position: relative;
+  bottom: 80px;
 }
 
 #maintitle{
     position: relative;
     left:200px;
+    font-family: fantasy;
+    bottom:50px;
+    
 }
 
-#picon {
+
+#chocolatet
+{font-size: 40px;
+ margin-top: 15px;}
+
+ #posted{
+     margin-top: -20px;
+ }
+
+ #picon {
     position: relative;
-    left:1150px;
-    bottom:30px;
+    left:1050px;
+    bottom:43px;
+    width: 15px;
+    height: 18px;
+    
+}
+#print{ position: relative;
+    left:1045px;
+    bottom:83px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: sans-serif;
 }
 
  #lists{ /* image of list */
-    display: block;
+   margin-top: -50px; 
+   display: block;
     margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  bottom:200px;
-  z-index: -1;
+    margin-right: auto;
+    position: relative;
+    bottom:200px;
+      z-index: -1;
+     /* border:solid; */ 
+     margin-bottom: 50px;
+     
+ 
 }
 
+#firstcol{list-style-type:none;
+
+ }
+#secondcol{list-style-type:none;
+margin-left: 60px; }
 
 #col{
     display: flex;
     position: relative;
-    left:350px;
-    top: 45px;
+    left:225px;
+    top: 20px;
+    
 }
 
  .listitems2{   /* // the items in the paperlist */
     font-size: 20px;
     font-family: 'Comic Neue', cursive;
-    font-weight:normal;
+    padding-bottom: 3px;;
     
 }
 
@@ -130,39 +168,158 @@ p{
 #paragraphs{ /* paragraphs holder div id */
     position: relative;
     left: 210px;
+    bottom:90px;
+    
 }
 
 p{
-    border: solid;
+    /* border: solid; */
     position: relative;
     width: 900px;
+    height:fit-content;
     font-weight: 525;
+    margin-bottom: 30px;
+}
+
+/* vanessa section */
+
+#vanessa{
+    /* border:solid; */
+    position: relative;
+    left:210px;
+    width:910px;
+    bottom:20px;
+    height: 110px;
+    margin-bottom: 50px;
+    padding: 2.5px;
+    background-color:#fff8f9;
+    margin-top: 75px;
+}
+
+ 
+
+.vantext{
+    position: relative;
+    left:95px;
+    bottom:130px;
+    width:750px;
+    text-align: justify;
+    text-indent: 0%;
+    font-size: 15px;
+    color:#343434
+}
+
+#vanimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    right:410px;
+    bottom:40px;
+}
+
+button{
+    position: relative;
+    left:680px;
+    top:10px;
+    background-color:#B22222;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 
-
-
-
+#name{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 7.5px;
+}
 
 /* footer style */
 footer{
-    border:solid;
+    /* border:solid; */
     text-align: center;
+    height:250;
+    width:925px;
+    position: relative;
+    left:200px;
+    height: 100px;
+    top:20px
+    
+}
+
+.pf{
+    position: relative;
+    top:20px;
+    color:grey
+   
 }
 
 
 
 
 
+/* rulers */
 
 
-
-
-
-
-hr {
+#strangeruler{
     display:block;
     border:0px;
     height:10px;
     background-image:url(https://raw.githubusercontent.com/LTUC/amman-201d19/master/class-10/lab-a/lab-assets/hr-img.png);
+    margin-top:15px;
+    margin-bottom: 50px;
+    text-align:center;
+width:68%;
 }
+
+
+#insaneruler{
+    display:block;
+    border:0px;
+    height:10px;
+    background-image:url(https://raw.githubusercontent.com/LTUC/amman-201d19/master/class-10/lab-a/lab-assets/hr-img.png);
+    margin-top:15px;
+position: relative;
+top:45px;
+text-align:center;
+width:68%;
+}
+
+.footheader{
+    text-align:center;
+    /* width:60%;   */
+}
+
+#firstruler{
+text-align:center;
+width:30%;
+position: relative;
+right: 255px;
+top:48px;
+}
+
+#Secondruler{
+    text-align:center;
+    width:30%;
+    position: relative;
+    left:250px;
+    
+
+
+    }
+
+   
+    #finallogo{
+        width:25px;
+        height:25px;
+        position: relative;
+        left:654px;
+        /* bottom:25px; */
+         top:25px; 
+    }
