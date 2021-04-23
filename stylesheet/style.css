@@ -1,7 +1,7 @@
+
 body{
-
+    overflow-x: hidden;
 }
-
 /* header style */
 header{ 
     padding:10px;
@@ -147,7 +147,7 @@ p{
 
  }
 #secondcol{list-style-type:none;
-margin-left: 60px; }
+margin-left: 150px; }
 
 #col{
     display: flex;
@@ -161,6 +161,7 @@ margin-left: 60px; }
     font-size: 20px;
     font-family: 'Comic Neue', cursive;
     padding-bottom: 3px;;
+   
     
 }
 
@@ -298,7 +299,7 @@ width:68%;
 
 #firstruler{
 text-align:center;
-width:30%;
+width:35%;
 position: relative;
 right: 255px;
 top:48px;
@@ -306,7 +307,7 @@ top:48px;
 
 #Secondruler{
     text-align:center;
-    width:30%;
+    width:35%;
     position: relative;
     left:250px;
     
@@ -322,4 +323,25 @@ top:48px;
         left:654px;
         /* bottom:25px; */
          top:25px; 
+        opacity: .5;
+
     }
+
+
+
+    /* checkbox striked */
+     /* .strike:checked + label {
+        color:black;
+        text-decoration: line-through;
+      } 
+      
+      #checkbox9:checked + label {
+        color:black;
+        text-decoration: line-through;
+      } 
+       */
+      #checkbox8:checked + label {
+        color:black;
+        text-decoration: line-through;
+      } 
+      
