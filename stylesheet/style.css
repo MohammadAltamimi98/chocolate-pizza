@@ -6,7 +6,7 @@ body{
 header{ 
     padding:10px;
     /* border:solid; */
-    height: 175px;
+    height: 135px;
 }
 
 
@@ -25,8 +25,8 @@ h6{
 /* images in header */
 selection{
     position: relative;
-    left:810px;
-    bottom: 120px;
+    left:805px;
+    bottom: 145px;
 
 }
 
@@ -91,9 +91,9 @@ p{
     display: block;
     margin-left: auto;
   margin-right: auto;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   position: relative;
-  bottom: 80px;
+  bottom: 105px;
 }
 
 #maintitle{
@@ -106,8 +106,8 @@ p{
 
 
 #chocolatet
-{font-size: 40px;
- margin-top: 15px;}
+{font-size: 50px;
+ margin-top: 10px;}
 
  #posted{
      margin-top: -20px;
@@ -116,14 +116,14 @@ p{
  #picon {
     position: relative;
     left:1050px;
-    bottom:43px;
-    width: 15px;
+    bottom:80px;
+    width: 18px;
     height: 18px;
     
 }
 #print{ position: relative;
     left:1045px;
-    bottom:83px;
+    bottom:115px;
     font-size: 15px;
     font-weight: 500;
     font-family: sans-serif;
@@ -168,6 +168,7 @@ margin-left: 150px; }
 
 #paragraphs{ /* paragraphs holder div id */
     position: relative;
+
     left: 210px;
     bottom:90px;
     
@@ -179,7 +180,8 @@ p{
     width: 900px;
     height:fit-content;
     font-weight: 525;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
 }
 
 /* vanessa section */
