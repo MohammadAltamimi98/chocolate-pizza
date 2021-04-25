@@ -12,12 +12,13 @@ header{
 #title{
     font-family: 'Yellowtail', cursive;
     color: black;
-    font-size: 60px;
+    font-size: 45px;
 }
 
 
 h6{
-    font-family:  'Open Sans', sans-serif;;
+    font-family:  'Open Sans', sans-serif;
+    opacity: .5;
 }
 
 
@@ -25,7 +26,8 @@ h6{
 selection{
     position: relative;
     left:805px;
-    bottom: 145px;
+    bottom: 220px;
+    /* border: solid; */
 
 }
 
@@ -59,11 +61,11 @@ bottom:20px;
 }
 
 #logo1{
-     height:90px;
-     width:75px;
+     height:75px;
+     width:60px;
      position:relative;
-     top:30px;
-     left:190px;
+     top:10px;
+     left:200px;
 }
 
 
@@ -109,21 +111,25 @@ p{
  margin-top: 10px;}
 
  #posted{
-     margin-top: -20px;
+     position: relative;
+     /* margin-top: -20px; */
+     bottom: 30px;
+     left:5px;
+     
  }
 
  #picon {
     position: relative;
     left:1050px;
-    bottom:80px;
-    width: 18px;
-    height: 18px;
+    bottom:85px;
+    width: 15px;
+    height: 15px;
     
 }
 #print{ position: relative;
-    left:1045px;
+    left:1040px;
     bottom:115px;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 500;
     font-family: sans-serif;
 }
@@ -278,6 +284,8 @@ footer{
     margin-bottom: 50px;
     text-align:center;
 width:68%;
+position: relative;
+bottom:40px;
 }
 
 
@@ -300,17 +308,19 @@ width:68%;
 
 #firstruler{
 text-align:center;
-width:35%;
+width:32%;
 position: relative;
-right: 255px;
+right: 240px;
 top:48px;
+opacity: .5;
 }
 
 #Secondruler{
     text-align:center;
-    width:35%;
+    width:32%;
     position: relative;
-    left:250px;
+    left:235px;
+    opacity: .5;
     
 
 
